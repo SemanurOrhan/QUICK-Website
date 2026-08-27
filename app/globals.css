@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --color-bronze: #a8894f;
+  --color-ember: #c97a3d;
+  --color-teal-deep: #1f4547;
+  --color-charcoal: #26211d;
+  --color-parchment: #f5efe3;
+  --color-cream-card: #fbf7ef;
+}
+
+@theme inline {
+  --color-bronze: var(--color-bronze);
+  --color-ember: var(--color-ember);
+  --color-teal-deep: var(--color-teal-deep);
+  --color-charcoal: var(--color-charcoal);
+  --color-parchment: var(--color-parchment);
+  --color-cream-card: var(--color-cream-card);
+
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-instrument-sans);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+body {
+  background: var(--color-parchment);
+  color: var(--color-charcoal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+/* Hides the native scrollbar on horizontally-scrollable strips (e.g. the
+   menu category nav) while keeping touch/wheel scroll fully functional. */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
