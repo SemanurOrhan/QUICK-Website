@@ -1,6 +1,7 @@
-# Kaşuk Lokantası — Web Sitesi
+# Lokantalar için Hızlı — Web Sitesi
 
-Geleneksel bir esnaf lokantası için Next.js tabanlı tanıtım sitesi. Menü ve site görselleri bir Google Sheets dosyasından yönetilir; ekstra bir admin panel ya da veritabanına ihtiyaç duyulmaz.
+Geleneksel bir esnaf lokantası örnek alınarak geliştirilmiştir.
+Next.js tabanlı tanıtım, sitesi. Menü ve site görselleri bir Google Sheets dosyasından yönetilir; ekstra bir admin panel ya da veritabanına ihtiyaç duyulmaz.
 
 ## Geliştirme
 
