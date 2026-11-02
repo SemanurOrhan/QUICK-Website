@@ -1,0 +1,20 @@
+kategori,urun_adi,aciklama,fiyat,sira,aktif
+Izgaralar,Adana Kebap,Acılı,420,1,evet
+Izgaralar,Urfa Kebap,Acısız,420,2,evet
+Izgaralar,Tavuk Şiş,,380,3,evet
+Izgaralar,Karışık Izgara,,650,4,evet
+Izgaralar,Kuzu Pirzola,,680,5,evet
+Ev Yemekleri,İskender,Yoğurtlu,450,1,evet
+Ev Yemekleri,Yoğurtlu Durak,Lokantamızın imza yemeği,430,2,evet
+Ev Yemekleri,Karnıyarık,,320,3,evet
+Ev Yemekleri,Et Sote,,480,4,evet
+Ev Yemekleri,Mercimek Çorbası,,90,5,evet
+Mezeler,Ezme,,90,1,evet
+Mezeler,Haydari,,90,2,evet
+Mezeler,Cacık,,90,3,evet
+Tatlılar,Künefe,,180,1,evet
+Tatlılar,Sütlaç,,150,2,evet
+Tatlılar,Baklava,,200,3,evet
+İçecekler,Ayran,,60,1,evet
+İçecekler,Kola,,80,2,evet
+İçecekler,Çay,,30,3,evet
