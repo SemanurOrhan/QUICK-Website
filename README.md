@@ -100,8 +100,6 @@ knowledge required.
 > image is filled in, it shows a neutral, on-brand placeholder instead of
 > a broken-image icon.
 
-🔗 **Live demo:** _(add the link here after deploying)_
-
 ## Why this template?
 
 - 🍽️ **Not just for restaurants** — the menu + price + category logic
